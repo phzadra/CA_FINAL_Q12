@@ -8,3 +8,5 @@ BUILD
 compile_commands.json
 .clangd
 .cache
+ST_INTERFACES
+X_NUCLEO_COMMON
