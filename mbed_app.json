@@ -1,0 +1,22 @@
+{
+    "name": "platform",
+    "config": {
+        "minimal-printf-enable-64-bit": {
+            "help": "Enable printing 64 bit integers when using minimal printf library",
+            "value": true
+        },
+        "minimal-printf-enable-floating-point": {
+            "help": "Enable floating point printing when using minimal printf library",
+            "value": false
+        },
+        "minimal-printf-set-floating-point-max-decimals": {
+            "help": "Maximum number of decimals to be printed when using minimal printf library",
+            "value": 6
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "target.printf_lib": "std"
+        }
+    }
+}
